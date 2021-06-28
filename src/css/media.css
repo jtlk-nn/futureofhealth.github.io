@@ -1,0 +1,43 @@
+@media (min-width: 1280px){
+	.content_container p, .choice{
+		font-size:18px;
+		line-height:26px;
+	}
+}
+@media (min-width: 1440px){
+	.content_container h2,.scenario .content h2{
+		font-size:36px;
+		line-height:42px;
+	}
+}
+@media (min-width: 1800px){
+	
+	h1{
+		font-size:90px;
+		line-height:90px;
+	}
+	
+	.content_container p, .choice{
+		font-size:22px;
+		line-height:30px;
+	}
+	.content_container h2,.scenario .content h2{
+		font-size:42px;
+		line-height:48px;
+	}
+	
+	.scenario .content.left_full h2{
+		font-size:90px;
+		line-height:90px;
+	}
+	
+	.content_container h3{
+		font-size:40px;
+		line-height:48px;
+	}
+	
+	.btn.small{
+		font-size:22px;
+		line-height:30px;
+	}
+}

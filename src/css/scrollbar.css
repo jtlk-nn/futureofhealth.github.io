@@ -1,0 +1,30 @@
+::-webkit-scrollbar {
+	width: 0px;
+	height: 0px;
+	background: transparent;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
+
+
+.scenarios::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+	background: transparent;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #001965;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #001965;
+}

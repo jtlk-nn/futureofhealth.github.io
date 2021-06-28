@@ -1,0 +1,64 @@
+div.buttons{
+	display:flex;
+	justify-content: space-between;
+}
+
+
+div.buttons.social{
+	display:block;
+}
+
+div.buttons.social .btn{
+	margin-right:20px;
+	margin-bottom: 20px;
+}
+
+.btn{
+	border-radius:30px;
+	padding:12px 18px;
+	font-size:20px;
+	line-height:32px;
+	text-decoration:none;
+	display:inline-block;
+	border:2px solid transparent;
+}
+
+.btn.small{
+	font-size:16px;
+	line-height:24px;
+	padding:10px 19px;
+}
+
+.btn.btn_blue{
+	color:white;
+	background-color:#001965;
+}
+
+.btn.btn_round{
+	padding:12px;
+}
+
+.btn.btn_round span{
+	width:0px;
+	display:inline-block;
+}
+
+.btn.btn_round span.shown{
+	width:54px;
+}
+
+.btn.btn_light_blue{
+	color:white;
+	background-color:#009FDA;
+}
+
+
+.btn.btn_blue.btn_sm_fb{
+	background-color:#3479EA;
+}
+.btn.btn_blue.btn_sm_tw{
+	background-color:#56C1F9;
+}
+.btn.btn_blue.btn_sm_wa{
+	background-color:#65CF72;
+}

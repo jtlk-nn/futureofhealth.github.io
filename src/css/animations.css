@@ -1,0 +1,29 @@
+*{
+	transition:all 500ms ease-in-out, zIndex 0ms linear, transition 0ms linear,color 0ms linear,backgroundColor 0ms linear, height 0ms linear, margin 0ms linear, position 0ms linear;
+}
+
+.animation_0{
+	transition:none !important;
+}
+
+.animation_0_all{
+	transition:none !important;
+}
+
+.animation_0_all *{
+	transition:none !important;
+}
+
+.animation_250{
+	transition-duration:250ms;
+}
+.animation_500{
+	transition-duration:500ms;
+}
+.animation_750{
+	transition-duration:750ms;
+}
+
+.animation_1000{
+	transition-duration:1000ms;
+}

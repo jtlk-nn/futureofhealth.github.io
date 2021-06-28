@@ -1,0 +1,99 @@
+.icon{
+	display:inline-block;
+	height:32px;
+	width:32px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size: contain;
+	vertical-align:bottom;
+}
+
+.icon_arrow_right{
+	background-image:url('../../img/icon_arrow_right.svg');
+}
+
+.icon_arrow_right_small{
+	background-image:url('../../img/icon_arrow_right.svg');
+	width: 18px;
+	height: 14px;
+	background-size: 100%;
+	vertical-align: middle;
+}
+
+.icon_arrow_left{
+	background-image:url('../../img/icon_arrow_right.svg');
+	transform:rotate(180deg);
+}
+
+.icon_arrow_up{
+	background-image:url('../../img/icon_arrow_right.svg');
+	transform:rotate(-90deg);
+}
+
+.icon_scroll_down{
+	background-image:url('../../img/icon_scroll_down.svg');
+	width:12px;
+	height:24px;
+}
+
+.icon_check{
+	background-image:url('../../img/icon_check.svg');
+	width:19px;
+	height:14px;
+	vertical-align:middle;
+}
+
+.icon_cross{
+	background-image:url('../../img/icon_cross.svg');
+	width:28px;
+	height:28px;
+}
+
+.icon_document{
+	background-image:url('../../img/icon_document.svg');
+	width:16px;
+	height:20px;
+	vertical-align:middle;
+}
+
+.icon_share{
+	background-image:url('../../img/icon_share.svg');
+	width:20px;
+	height:28px;
+	vertical-align:middle;
+}
+
+.icon_sm_fb{
+	background-image:url('../../img/icon_sm_fb.svg');
+	width:13px;
+	height:28px;
+	vertical-align:middle;
+}
+
+.icon_sm_tw{
+	background-image:url('../../img/icon_sm_tw.svg');
+	width:28px;
+	height:23px;
+	vertical-align:middle;
+}
+
+.icon_sm_wa{
+	background-image:url('../../img/icon_sm_wa.svg');
+	width:28px;
+	height:28px;
+	vertical-align:middle;
+}
+
+.icon_sm_link{
+	background-image:url('../../img/icon_sm_link.svg');
+	width:28px;
+	height:28px;
+	vertical-align:middle;
+}
+
+.icon_message{
+	background-image:url('../../img/icon_message.svg');
+	width:23px;
+	height:27px;
+	vertical-align:middle;
+}

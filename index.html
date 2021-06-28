@@ -1,0 +1,140 @@
+<html>
+	<head>
+		<title></title>
+		<meta content="">
+		<link rel="stylesheet" href="src/css/main.css" />
+		<link rel="stylesheet" href="src/css/buttons.css" />
+		<link rel="stylesheet" href="src/css/icons.css" />
+		<link rel="stylesheet" href="src/css/positions.css" />
+		<link rel="stylesheet" href="src/css/animations.css" />
+		<link rel="stylesheet" href="src/css/scrollbar.css" />
+		<link rel="stylesheet" href="src/css/media.css" />
+		<script type="text/javascript" src="config.js"></script>
+		<script type="text/javascript" src="src/js/main.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="index_text" class="left_full" data-rpoint="index_text">
+				<div class="logo_container">
+					<img class="logo" src="img/nn_logo_rgb_blue.svg">
+				</div>
+				<div class="content_container">
+					<h1>Shape the&nbsp;future of&nbsp;health</h1>
+					<p>Create a future scenario for how the health landscape will look like fifteen years from now - and discover what kind of health futurist you are</p>
+					<div class="buttons">
+						<a href="#" class="btn btn_blue" data-action="transition" data-data="index_to_scenarios">Choose the Future&nbsp;&nbsp;<i class="icon icon_arrow_right"></i></a>
+						<a href="#" class="btn btn_light_blue" data-action="transition" data-data="index_to_trends">All Trends</a>
+					</div>
+				</div>
+			</div>
+			<div id="scenarios" class="right_full" data-rpoint="scenarios_container">
+				<div class="buttons">
+					<a href="#" class="btn btn_blue" data-action="transition" data-data="scenarios_to_index"><i class="icon icon_arrow_left"></i>&nbsp;Back</a>
+					<a href="#" class="btn btn_blue hidden_opacity" data-action="results.show">See My Results&nbsp;&nbsp;<i class="icon icon_document"></i></a>
+				</div>
+				<div class="popup full" data-rpoint="popup">
+					<div class="modal">
+						<h3>How it works</h3>
+						<p>Select your first scenario from the list to get started. After answering questions from three scenarios, you'll find out how you perceive the future. Note that this is a demo, and only three choices of scenarios are currently available. Thanks for giving it a try!</p>
+						<p>Got feedback? Contact JTLK with comments or questions.</p>
+						<a class="btn btn_blue" href="#" data-action="transition" data-data="popup_hide">Ok</a>
+					</div>
+				</div>
+				<div class="scenarios" data-rpoint="scenarios_list">
+					
+				</div>
+			</div>
+			
+			<div id="trends_text" class="left_full hidden_bottom" data-rpoint="trends_text">
+				<div class="content_container">
+					<div class="buttons">
+						<a href="#" class="btn btn_blue" data-action="transition" data-data="trends_to_index"><i class="icon icon_arrow_up"></i>&nbsp;Back</a>
+					</div>
+					<h1>Trends</h1>
+					<h3>These trends have been selected as potent disrupters of the status quo in healthcare and pharma. Click on a trend to understand more.</h3>
+				</div>
+				<div class="logo_container">
+					<img class="logo1" src="img/nn_logo_rgb_blue.svg">
+					<img class="logo2" src="img/logo_business_innovation_garage.svg">
+				</div>
+			</div>
+			<div id="trends_list" class="right_full hidden_bottom" data-rpoint="trends_list_container">
+				<div class="full scrollable">
+					<div data-rpoint="trends_list"></div>
+				</div>
+			</div>
+		
+			<div id="trend_container" class="full hidden_left animation_750" data-rpoint="trend_container">
+				<div class="content_container left_full" data-rpoint="trend_content_container">
+					<div class="full scrollable">
+						<div class="buttons">
+							<a href="#" class="btn btn_blue" data-action="transition" data-data="trend_hide"><i class="icon icon_arrow_left"></i>&nbsp;Back</a>
+						</div>
+						<div data-rpoint="trend_content"></div>
+					</div>
+				</div>
+				<div class="right_full right_full_plus hidden_left animation_750" data-rpoint="trend_image">
+					
+				</div>
+			</div>
+			
+			<div id="results_container" class="full hidden_left animation_750" data-rpoint="results_container">
+				<div class="content_container left_full" data-rpoint="results_content_container">
+					<div class="full scrollable">
+						<div data-rpoint="results_content_flex">
+							<div>
+								<div class="buttons">
+									<a href="#" class="btn btn_blue" data-action="transition" data-data="results_hide"><i class="icon icon_arrow_left"></i>&nbsp;&nbsp;Back</a>
+								</div>
+								<div data-rpoint="results_content"></div>
+								<div class="buttons">
+									<a href="#" class="btn btn_blue">Share your future&nbsp;&nbsp;<i class="icon icon_share"></i></a><!-- add data-action="transition" data-data="share_show" to <a> tag to activate sharing panel -->
+									<a href="#" class="btn btn_blue" data-action="reset">Start over</a>
+								</div>
+							</div>
+							<div class="contact_us">
+								<h3>Do you have more to say about the future of healthcare?</h3>
+								<p>Contact the Novo Nordisk Business Innovation Garage to start the conversation.</p>
+								<div class="buttons">
+									<a href="#" class="btn btn_blue" data-action="transition" data-data="contact_us_show">Contact us</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="right_full right_full_plus hidden_left animation_750" data-rpoint="results_image"></div>
+			</div>
+			
+			<div id="share_container" class="full hidden_opacity animation_750" data-rpoint="share_container">
+				<div class="content_container right_full hidden_right" data-rpoint="share_content">
+					<div class="buttons">
+						<a href="#" class="btn btn_round btn_blue" data-action="transition" data-data="share_hide"><i class="icon icon_cross"></i></a>
+					</div>
+					<h2>Share your future</h2>
+					<div class="buttons social">
+						<a href="#" class="btn btn_blue btn_sm_fb">Facebook&nbsp;&nbsp;<i class="icon icon_sm_fb"></i></a>
+						<a href="#" class="btn btn_blue btn_sm_tw">Twitter&nbsp;&nbsp;<i class="icon icon_sm_tw"></i></a>
+						<a href="#" class="btn btn_blue btn_sm_wa">WhatsApp&nbsp;&nbsp;<i class="icon icon_sm_wa"></i></a>
+						<a href="#" class="btn btn_blue">Copy Link&nbsp;&nbsp;<i class="icon icon_sm_link"></i></a>
+					</div>
+				</div>
+			</div>
+			
+			<div id="contact_us_container" class="full hidden_opacity animation_750" data-rpoint="contact_us_container">
+				<div class="content_container right_full hidden_right" data-rpoint="contact_us_content">
+					<div class="buttons">
+						<a href="#" class="btn btn_round btn_blue" data-action="transition" data-data="contact_us_hide"><i class="icon icon_cross"></i></a>
+					</div>
+					<h2>Contact Us</h2>
+					<form onsubmit="javascript:void(0)">
+						<input type="text" placeholder="Your Name"/>
+						<input type="text" placeholder="Your Email"/>
+						<textarea type="text" placeholder="Your Idea..."></textarea>
+						<button class="btn btn_blue">Send Message&nbsp;&nbsp;<i class="icon icon_message"></i></button>
+					</form>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
